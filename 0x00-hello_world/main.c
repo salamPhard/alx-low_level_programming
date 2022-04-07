@@ -2,7 +2,7 @@
 /** 
 * main - Entry point
 * 
-i* Return : Alwasy (0) Success
+* Return : Alwasy (0) Success
 */
 int main (void)
 {
