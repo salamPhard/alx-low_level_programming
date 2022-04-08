@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
- * Using the command puts instead of prinf
+ * main - main
+ * Return : 0
  */
 int main(void)
 {
