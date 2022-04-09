@@ -12,6 +12,7 @@ int main(void)
 	for (numberz = 0; numberz < 10; numberz++)
 	{
 		int n = numberz % 10;
+
 		putchar(n + '0');
 	}
 	putchar('\n');
