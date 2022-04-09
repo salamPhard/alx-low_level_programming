@@ -21,7 +21,6 @@ int main(void)
 		printf("%i is zero\n", n);
 
 	else
-		printf("%i is negative\n", n);
-	
+		printf("%i is negative\n", n);	
 	return (0);	
 }
