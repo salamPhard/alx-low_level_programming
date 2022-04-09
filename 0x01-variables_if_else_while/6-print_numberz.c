@@ -3,6 +3,7 @@
  * main - main block
  * Description: Printing all single digits numbers
  * using putchar function
+ * Return: 0
  */
 int main(void)
 {
@@ -10,9 +11,9 @@ int main(void)
 
 	for (numberz = 0; numberz < 10; numberz++)
 	{
-		putchar(numberz);
+		putchar(numberz % 10);
 	}
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
