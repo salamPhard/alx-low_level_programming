@@ -12,7 +12,7 @@ int main(void)
 	{
 		printf("%i", numbers);
 	}
-	printf('\n');
+	printf("\n");
 	
 	return (0);
 }
