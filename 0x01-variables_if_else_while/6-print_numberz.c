@@ -6,4 +6,13 @@
  */
 int main(void)
 {
+	int numberz = 0;
 
+	for (numberz = 0; numberz < 10; numberz++)
+	{
+		putchar("%i", numberz);
+	}
+	putchar('\n');
+
+	return 0;
+}
