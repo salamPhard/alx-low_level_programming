@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
+/**
  * main - main block
  * Description: Get a random number and print the number
  * if it is zero, negative or positive
@@ -20,5 +20,5 @@ int main(void)
 	else
 		printf("%i is zero\n", n);
 
-return (0);	
+	return (0);	
 }
