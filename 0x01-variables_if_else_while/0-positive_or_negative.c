@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** main - block of statement 
+/** 
+ * main - main block
+ * Description: Get a random number and print the number
+ * if it is zero, negative or positive
  *
- * Function to check if a number is positive zero or negative
+ * Return: 0
  */
 int main(void)
 {
