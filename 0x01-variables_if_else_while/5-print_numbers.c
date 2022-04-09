@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Print all single digits numbers 
+ * Description: Print all single digits numbers
  * Return: 0
  */
 int main(void)
@@ -13,6 +13,6 @@ int main(void)
 		printf("%i", numbers);
 	}
 	printf("\n");
-	
+
 	return (0);
 }
