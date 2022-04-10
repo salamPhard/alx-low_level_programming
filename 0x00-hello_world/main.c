@@ -1,10 +1,10 @@
 #include<stdio.h>
 /** 
 * main - Entry point
-* 
-* Return : Alwasy (0) Success
+* Desctiption : Empty Program in main
+* Return: Always (0) Success
 */
-int main (void)
+int main(void)
 {
 	return (0);
 }
