@@ -26,7 +26,7 @@ int main(void)
 
 					if (i + j + k != 9 + 8 + 7)
 					{
-						putchar(',);
+						putchar(',');
 						putchar(' ');
 					}
 				}
