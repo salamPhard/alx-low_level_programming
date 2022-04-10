@@ -27,7 +27,7 @@ int main(void)
 						putchar(' ');
 						putchar(j + '0');
 						putchar(i + '0');
-						if(!(k + l == 18 && i + j == 17 and j == 9))
+						if(!(k + l == 18 && i + j == 17 && j == 9))
 						{
 							putchar(',');
 							putchar(' ');
