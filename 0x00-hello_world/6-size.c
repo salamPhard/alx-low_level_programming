@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Main - main block
- *
+ * main - main block
+ * Description: Print size of datatyype
  * Return: 0
  */
 int main(void)
