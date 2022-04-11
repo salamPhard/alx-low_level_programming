@@ -23,7 +23,7 @@ int main(void)
 				i = 0;
 				while (i <= 9)
 				{
-					if (!(l == i && k == j))
+					if (!(l == i && k == j) && i < k && j < l)
 					{
 						putchar('0' + l);
 						putchar('0' + k);
