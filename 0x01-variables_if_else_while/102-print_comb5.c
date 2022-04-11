@@ -20,14 +20,14 @@ int main(void)
 			{
 				for (l = 0; l <= 9; l++)
 				{
-					if (!(i == j && k == l))
+					if (!(l == i && k == j))
 					{
-						putchar(i + '0');
-						putchar(j + '0');
-						putchar(' ');
-						putchar(k + '0');
 						putchar(l + '0');
-						if(!(i + j == 18 && k + l == 17 && l == 9))
+						putchar(k + '0');
+						putchar(' ');
+						putchar(j + '0');
+						putchar(i + '0');
+						if(!(l + k == 18 && i + j == 17 && j == 9))
 						{
 							putchar(',');
 							putchar(' ');
