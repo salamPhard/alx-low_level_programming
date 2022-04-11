@@ -22,11 +22,11 @@ int main(void)
 				{
 					if (!(l == i && k == j))
 					{
-						putchar(l + '0');
-						putchar(k + '0');
-						putchar(' ');
-						putchar(j + '0');
 						putchar(i + '0');
+						putchar(j + '0');
+						putchar(' ');
+						putchar(k + '0');
+						putchar(l + '0');
 						if (!(l + k == 18 && i + j == 17 && j == 9))
 						{
 							putchar(',');
