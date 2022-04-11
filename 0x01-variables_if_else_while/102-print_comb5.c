@@ -12,31 +12,39 @@ int main(void)
 {
 	int i, j, k, l = 0;
 
-	for (i = 0; i <= 9; i++)
+	while (l <= 9)
 	{
-		for (j = 0; j <= 9; j++)
+		k = 0;
+		while (k <= 9)
 		{
-			for (k = 0; k <= 9; k++)
+			j = 0;
+			while (j <= 9)
 			{
-				for (l = 0; l <= 9; l++)
+				i = 0;
+				while (i <= 9)
 				{
 					if (!(l == i && k == j))
 					{
-						putchar(i + '0');
-						putchar(j + '0');
+						putchar('0' + l);
+						putchar('0' + k);
 						putchar(' ');
-						putchar(k + '0');
-						putchar(l + '0');
+						putchar('0' + j);
+						putchar('0' + i);
 						if (!(l + k == 18 && i + j == 17 && j == 9))
 						{
 							putchar(',');
 							putchar(' ');
 						}
 					}
+					i++;
 				}
+				j++;
 			}
+			k++;
 		}
-	}
+		l++;
+	}	
+						
 	putchar('\n');
 
 	return (0);
