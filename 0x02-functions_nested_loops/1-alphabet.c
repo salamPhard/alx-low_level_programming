@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - prints all alphabets in lower case
- * 
- * Description: Sorted by default
+ * print_alphabet - Entry point
  * Return: 0
  */
 
