@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * Function: Function to print all alphabets
- * in lower case
- * main - main block
- * Description: Call the function
+ * print_alphabet - prints all alphabets in lower case
+ * 
+ * Description: Sorted by default
  * Return: 0
  */
+
 void print_alphabet(void)
 {
 	char ch = 'a';
