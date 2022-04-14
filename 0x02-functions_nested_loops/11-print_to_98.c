@@ -14,25 +14,55 @@
 	{
 		for (i = n; i <= 98; i++)
 		{
-			_putchar(i + '0');
-			_putchar(',');
-			_putchar(' ');
+			if (i < 0)
+			{
+				_putchar('-');
+				_putchar((i * -1) + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
+			if (i >= 0 && i < 10)
+			{
+				_putchar((i % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
+			if (i >= 10 && i <= 98)
+			{
+				_putchar((i / 10) + '0');
+				_putchar((i % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 	}
-	else if (n > 98)
+	if (n > 98)
 	{
 		for (i = n; i >= 98; i--)
 		{
-			_putchar(i + '0');
-			_putchar(',');
-			_putchar(' ');
+			if (i >= 100)
+			{
+				_putchar((i / 100) + '0');
+				_putchar((i - 100) / 10 + '0');
+				_putchar((i % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
+			if (i < 100)
+			{
+				_putchar((i / 10) + '0');
+				_putchar((i % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 	}
-	else
+	if (n == 98)
 	{
-		_putchar(9 + '0');
-		_putchar(8 + '0');
+		_putchar((n / 10) + '0');
+		_putchar((n % 10) + '0');
 	}
 	_putchar('\n');
+
 }
 
