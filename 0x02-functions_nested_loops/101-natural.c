@@ -1,5 +1,5 @@
 #include "main.h"
-#include<stdlib.h>
+#include<stdio.h>
 /**
  * main - main block
  * Description: prints all multiples of 3 and 5
