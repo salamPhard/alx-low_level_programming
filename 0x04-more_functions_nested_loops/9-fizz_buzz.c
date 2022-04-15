@@ -1,10 +1,7 @@
 #include<stdio.h>
 /**
  * main - main block
- * Description: Print 1 - 100
- * Fizz for multiples of 3
- * Buzz for multiple of 5
- * FizzBuzz for multiple of 3 and 5
+ * Description: Print 1 to 100
  * Return: 0
  */
 int main(void)
