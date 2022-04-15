@@ -2,6 +2,7 @@
 /**
  * print_square - create a square function
  * @n: parameter
+ * Return: 0
  */
 void print_square(int n)
 {
