@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - main block
+ *
  * Description: Print 1 to 100
  * Return: 0
  */
@@ -28,6 +29,5 @@ int main(void)
 		}
 	}
 	printf("Buzz\n");
-
 	return (0);
 }
