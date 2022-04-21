@@ -6,7 +6,7 @@
  *
  * Return: pointer
  */
-char *strcpy(char *dest, char *str)
+char *strcpy(char *dest, char *src)
 {
 	int i;
 
