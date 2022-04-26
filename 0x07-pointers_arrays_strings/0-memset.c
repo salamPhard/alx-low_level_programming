@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * memset - copy a char in an n area of array
+ * *_memset - copy a char in an n area of array
  * @s: pointer to the array
  * @b: character to be replaced
  * @n: number of n times
