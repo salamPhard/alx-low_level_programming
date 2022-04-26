@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * strspn - get length
+ * _strspn - get length
  * @s: first param
  * @accept: second param
- *
+ *i
  * Return: 0
  */
 unsigned int _strspn(char *s, char *accept)
@@ -14,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (j = 0; accept[j]; j++)
 		{
-			if (s[i] == accepte[j])
+			if (s[i] == accept[j])
 			{
 				break;
 			}
