@@ -7,7 +7,7 @@
  *
  * Return: ptr to first character
  */
-char *_strchr(char *s, chr c)
+char *_strchr(char *s, char c)
 {
 	while (*s)
 	{
