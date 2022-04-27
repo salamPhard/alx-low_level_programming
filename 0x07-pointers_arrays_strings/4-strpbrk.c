@@ -1,29 +1,43 @@
 #include "main.h"
+#include<stdio.h>
 /**
- * _strspn - get length
+ * _strpbrk - search a string
  * @s: first param
  * @accept: second param
- *i
- * Return: 0
+ *
+ * Return: accepted string
  */
-unsigned int _strspn(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-	unsigned int i, j;
+	int i, j, len, exist = 0;
 
-	for (i = 0; s[i]; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; accept[j]; j++)
+		continue;
+	}
+	len = i;
+	for (i = 0; accept[i] != '\0'; i++)
+	{
+		for (j = 0; s[j] != '\0'; j++)
 		{
-			if (s[i] == accept[j])
+			if (accept[i] == s[j])
 			{
-				break;
+				if (j <= len)
+				{
+					len = j;
+					exist = 1;
+				}
 			}
 		}
-		if(!accept[j])
-		{
-			break;
-		}
 	}
-	return (i);
+	if (exist == 1)
+	{
+		return (&s[len]);
+	}
+	else
+	{
+		return (NULL);
+	}
+	return (0);
 }
-				
+
