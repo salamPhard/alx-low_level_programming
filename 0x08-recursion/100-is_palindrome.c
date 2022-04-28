@@ -14,7 +14,7 @@ int str_len(char *s)
 	return (1 + str_len(s + 1));
 }
 
-/** 
+/**
  * check_palindrome - check for palindrome
  * @s: first param
  * @i: second param
