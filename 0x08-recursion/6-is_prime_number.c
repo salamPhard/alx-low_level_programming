@@ -25,7 +25,7 @@ int is_prime(int i, int j)
  *
  * Return: return the state of the value
  */
-int _is_prime_number(int n)
+int is_prime_number(int n)
 {
 	if (n < 3)
 	{
