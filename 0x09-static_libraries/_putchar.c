@@ -6,15 +6,10 @@
  */
 int _putchar(char c)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+	int i = 0, temp;
+	c = i;
+	temp = c;
+	i = temp;
 
-	return (0);
+	return (i);
 }
