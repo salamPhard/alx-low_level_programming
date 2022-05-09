@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * main - main block
+ * _putchar - using a putchar function
  * Description: Writing a putchar to stdout
  * Return: 0
  */
-int main(void)
+int _putchar(char c)
 {
 	putchar('_');
 	putchar('p');
