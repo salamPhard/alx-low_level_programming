@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
- * main: adding parameters together 
+ * main: adding parameters together
  * @argc: first param
  * @argv: second param
  *
