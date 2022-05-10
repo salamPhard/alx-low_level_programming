@@ -47,7 +47,7 @@ int calculate_cents(int num)
  */
 int main(int argc, char *argv[])
 {
-	int numbers;
+	int number;
 
 	if (argc != 2)
 	{
