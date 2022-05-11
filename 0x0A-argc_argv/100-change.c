@@ -33,6 +33,10 @@ int calculate_cents(int num)
 		{
 			num -= 1;
 		}
+		else if(num >= -10)
+		{
+			num -= -10;
+		}
 		coins++;
 	}
 	return (coins);
