@@ -17,7 +17,7 @@ int calculate_cents(int num)
 		{
 			num -= 25;
 		}
-		else if ( num >= 10)
+		else if (num >= 10)
 		{
 			num -= 10;
 		}
@@ -58,6 +58,6 @@ int main(int argc, char *argv[])
 	{
 		return (printf("Error\n"), 1);
 	}
-	printf("%d\n",calculate_cents(number));
+	printf("%d\n", calculate_cents(number));
 	return (0);
 }
