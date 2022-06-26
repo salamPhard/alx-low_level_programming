@@ -5,7 +5,7 @@
 /**
  * print_strings - print strings
  * @separator: string to be printed within
- * @n: number of strings passed 
+ * @n: number of strings passed
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
